@@ -6,6 +6,7 @@
 
 .posters {
   display: flex;
+  /* width: 100%; */
   padding: 20px;
   overflow-x: scroll;
   overflow-y: hidden;
@@ -22,23 +23,27 @@
 }
 
 .poster:hover {
-  filter: brightness(100%);
+  transform: scale(1.1);
+  z-index: 1;
 }
 
 .small_poster {
+  margin-bottom: 10px;
   max-height: 150px;
   margin-right: 10px;
   filter: brightness(75%);
 }
 
 .small_poster:hover {
-  filter: brightness(100%);
+  transform: scale(1.1);
 }
 
 .dis {
   position: relative;
-  top: -75px;
-  padding: 5px;
+  width: 100%;
+  top: -60px;
+  /* padding: 5px; */
+  z-index: 1;
 }
 
 .dis h5 {
@@ -47,10 +52,17 @@
 
 .dis_small {
   position: relative;
+  width: 100%;
   top: -75px;
-  padding: 5px;
 }
 
 .overview {
   font-size: 12px;
+}
+
+.close {
+  z-index: 1;
+  color: #fff;
+  cursor: pointer;
+  font-size: 20px;
 }
