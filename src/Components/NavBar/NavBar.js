@@ -16,11 +16,11 @@ function NavBar() {
 
     return () => {
       window.removeEventListener("scroll", transitionNavBar);
-    }
-  }, [])
+    };
+  }, []);
 
   return (
-    <div className={`navbar ${show && 'navbar_bg'}`}>
+    <div className={`navbar ${show && "navbar_bg"}`}>
       <div className="left">
         <img
           className="logo"

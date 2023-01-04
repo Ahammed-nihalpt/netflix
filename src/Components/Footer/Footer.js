@@ -20,24 +20,24 @@ function Footer() {
       <br />
       <div className="footer_menu">
         <div className="one">
-            <p className="point underline">Audio Description</p>
-            <p className="point underline">Investor Relations</p>
-            <p className="point underline">Legal Notices</p>
+          <p className="point underline">Audio Description</p>
+          <p className="point underline">Investor Relations</p>
+          <p className="point underline">Legal Notices</p>
         </div>
         <div className="one">
-            <p className="point underline">Help Centre</p>
-            <p className="point underline">Jobs</p>
-            <p className="point underline">Cookie Preferences</p>
+          <p className="point underline">Help Centre</p>
+          <p className="point underline">Jobs</p>
+          <p className="point underline">Cookie Preferences</p>
         </div>
         <div className="one">
-            <p className="point underline">Gift Cards</p>
-            <p className="point underline">Terms of Use</p>
-            <p className="point underline">Corporate Information</p>
+          <p className="point underline">Gift Cards</p>
+          <p className="point underline">Terms of Use</p>
+          <p className="point underline">Corporate Information</p>
         </div>
         <div className="one">
-            <p className="point underline">Media Centre</p>
-            <p className="point underline">Privacy</p>
-            <p className="point underline">Contact Us</p>
+          <p className="point underline">Media Centre</p>
+          <p className="point underline">Privacy</p>
+          <p className="point underline">Contact Us</p>
         </div>
       </div>
       <div className="footer_bottom">

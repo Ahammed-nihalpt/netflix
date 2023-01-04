@@ -50,7 +50,7 @@ function RowPost(props) {
                   <img
                     onClick={() => handleMovie(data.id)}
                     key={data.id}
-                    style={{ transform: hover === data.id ? 'scale(1.1)' : '' }}
+                    style={{ transform: hover === data.id ? "scale(1.1)" : "" }}
                     className={props.isSmall ? "small_poster" : "poster"}
                     src={`${ImageURL + data.backdrop_path}`}
                     alt={data.id}
@@ -82,11 +82,17 @@ function RowPost(props) {
             }
           })}
       </div>
-      {urlid && <div>
-        <i onClick={()=>{setUrlId("")}} class="fa-solid fa-xmark close"></i>
-        <YouTube videoId={urlid.key} opts={opts} />
-      </div>
-      }
+      {urlid && (
+        <div>
+          <i
+            onClick={() => {
+              setUrlId("");
+            }}
+            class="fa-solid fa-xmark close"
+          ></i>
+          <YouTube videoId={urlid.key} opts={opts} />
+        </div>
+      )}
     </div>
   );
 }
