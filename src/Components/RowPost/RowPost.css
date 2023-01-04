@@ -16,11 +16,41 @@
 }
 
 .poster {
-  max-height: 250px;
+  max-height: 162px;
   margin-right: 10px;
+  filter: brightness(80%);
+}
+
+.poster:hover {
+  filter: brightness(100%);
 }
 
 .small_poster {
   max-height: 150px;
   margin-right: 10px;
+  filter: brightness(75%);
+}
+
+.small_poster:hover {
+  filter: brightness(100%);
+}
+
+.dis {
+  position: relative;
+  top: -75px;
+  padding: 5px;
+}
+
+.dis h5 {
+  font-size: large;
+}
+
+.dis_small {
+  position: relative;
+  top: -75px;
+  padding: 5px;
+}
+
+.overview {
+  font-size: 12px;
 }
